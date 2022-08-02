@@ -1,7 +1,7 @@
 .ayuda {
     height: 300px;
     @include imagen (no-repeat, cover, center);
-    background-image: url(/img/ayuda.jpeg);
+    background-image: url("/img/ayuda.jpeg");
 }
 
 

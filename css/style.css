@@ -59,7 +59,7 @@ main .text .imagen img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-image: url(/img/ayuda.jpeg); }
+  background-image: url("/img/ayuda.jpeg"); }
 
 .ayuda .container-fluid .row {
   height: 300px; }
