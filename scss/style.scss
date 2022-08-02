@@ -1,0 +1,33 @@
+/*¨variables */
+@import "./utilities/variables";
+
+/*mixins */
+@import "./utilities/mixins";
+
+// maps 
+@import "./utilities/maps";
+
+// nav 
+@import "./partials/nav";
+
+/*index page */
+@import "./views/index.scss";
+
+// sobre mi page 
+ @import "./views/sobre-mi";
+
+//  contacto page 
+@import "./views/contacto";
+
+// ayuda 
+@import "./views/ayuda";
+
+/*mediaquires */
+@import "./utilities/mediaqueries";
+
+/*normalize */
+@import "./utilities/normalize";
+
+
+
+

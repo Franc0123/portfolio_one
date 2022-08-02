@@ -1,0 +1,68 @@
+
+
+
+@media screen and (min-width:768px) {
+
+    nav ul li {
+        font-size: 18px;
+    }
+    
+    nav ul li a{
+        @include nav_a;
+    }
+    
+    nav ul li a:hover{
+        @include hover;
+    }
+
+    .main .row{
+        height: 90vh;
+    }
+
+    .imagen img {
+        width: 80%;
+    }
+
+    .cards {
+        margin-top: 0%;
+    }
+
+    .footer-1 {
+        margin-top: 0%;
+    }
+
+}
+
+@media (min-width:1200px) {
+
+
+    .content-width {
+        width: 1110px;
+    }
+
+    .content-width-2 {
+        width: 1000px;
+    }
+}
+
+.hero-2 .row {
+    text-align: center;
+    height: 90vh;
+
+    h2 {
+        font-size: 45px;
+    }
+    .boton-1 {
+        border-radius: 1px solid #000;
+        padding: 12px 50px;
+        background-color: map-get($color, boton);
+    }
+
+    .boton-2 {
+        border-radius: 1px solid #000;
+        padding: 12px 50px;
+        
+    }
+
+    
+}

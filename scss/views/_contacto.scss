@@ -1,0 +1,24 @@
+.contacto {
+    @include imagen (no-repeat, cover, center);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../img/fondo.jpeg);
+}
+.contacto .row{
+    height: 90vh;
+}
+
+.form-1 {
+    width: 80%;
+}
+
+.form-info .row {
+    height: 700px;
+}
+    
+.footer-1 {
+    margin-top: 60%;
+}

@@ -1,0 +1,29 @@
+@mixin parrafo {
+    line-height: 2;
+    letter-spacing: 2px;
+}
+
+@mixin imagen ($repeat, $size, $position){
+    background-repeat: $repeat;
+    background-size: $size;
+    background-position: $position;
+}
+
+@mixin nav_a {
+    color: #000;
+    letter-spacing: 1px;
+    padding: 12px 20px;
+    transition: all .4s;
+}
+
+@mixin hover {
+    background: #000;
+    color: #fff
+}
+
+@mixin ayuda {
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px;
+}

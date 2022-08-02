@@ -1,0 +1,33 @@
+
+
+// PAGINA INDEX HTML 
+
+main .text{
+    .p {
+        @include parrafo;
+    }
+    button {
+        padding: 12px 50px;
+    }
+    .imagen img{
+        box-shadow: 1px 1px 5px;
+        width: 60%;
+    }
+}
+
+.cards {
+    .card {
+        @include parrafo;
+        background-color: map-get($color, primary);
+    }
+}
+
+.imagen-2 img {
+    box-shadow: 1px 1px 3px 7px;
+}
+
+
+
+
+
+

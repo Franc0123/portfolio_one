@@ -1,0 +1,24 @@
+.ayuda {
+    height: 300px;
+    @include imagen (no-repeat, cover, center);
+    background-image: url(/img/ayuda.jpeg);
+}
+
+
+
+.ayuda .container-fluid .row {
+    height: 300px;
+}
+
+.cover-1 .container-fluid .row {
+    height: 300px;
+}
+
+.pregunt {
+    @include ayuda;
+
+    h1 {
+        color: map-get($color, alternative);
+    }
+}
+
