@@ -3,16 +3,18 @@
 // PAGINA INDEX HTML 
 
 main .text{
+    
     .p {
         @include parrafo;
     }
     button {
         padding: 12px 50px;
     }
-    .imagen img{
-        box-shadow: 1px 1px 5px;
-        width: 60%;
-    }
+}
+
+.imagen img{
+    @include img;
+    width: 60%;
 }
 
 .cards {

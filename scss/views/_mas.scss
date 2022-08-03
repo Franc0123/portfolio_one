@@ -1,0 +1,17 @@
+.mas .row {
+    margin: 5px;
+
+    .imagen-mas img{
+        @include img;
+    }
+
+    .text {
+        border-radius: 10px;
+        box-shadow: 1px 1px 7px;
+
+        h1 {
+            color: map-get($color, alternative);
+        }
+    }
+}
+

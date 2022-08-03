@@ -27,3 +27,8 @@
     border-radius: 15px;
     box-shadow: 1px 1px 5px;
 }
+
+@mixin img {
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px;
+}
