@@ -31,11 +31,13 @@ main .text{
 }
 
 .tecnologias {
-    margin-top: 70%;
+    margin-top: 80%;
     background: rgb(88, 79, 121);
     .work img{
     @include img;
 }
+
+
 
 .tecno-text p{
     @include parrafo;
