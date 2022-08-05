@@ -1,6 +1,6 @@
 
 
-// PAGINA INDEX HTML 
+// pagina index html 
 
 main .text{
     
@@ -18,6 +18,8 @@ main .text{
 }
 
 .cards {
+    margin-top: 10%;
+    height: 500px;
     .card {
         @include parrafo;
         background-color: map-get($color, primary);
@@ -28,8 +30,17 @@ main .text{
     box-shadow: 1px 1px 3px 7px;
 }
 
+.tecnologias {
+    margin-top: 70%;
+    background: rgb(88, 79, 121);
+    .work img{
+    @include img;
+}
 
+.tecno-text p{
+    @include parrafo;
+}
 
-
+}
 
 

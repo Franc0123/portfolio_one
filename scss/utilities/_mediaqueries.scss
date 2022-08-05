@@ -31,10 +31,26 @@
         margin-top: 0%;
     }
 
+    .tecnologias {
+        min-height: 400px;
+        margin-top: 0%;
+    }
+
+    .imagen-3 img {
+        min-width: 100%;
+    }
+
+    .buttons .botones ul{
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }
 
 @media (min-width:1200px) {
 
+    .imagen-3 img {
+        min-width: 120%;
+    }
 
     .content-width {
         width: 1110px;

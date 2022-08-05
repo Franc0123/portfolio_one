@@ -25,17 +25,43 @@ main .text button {
   box-shadow: 1px 1px 7px;
   width: 60%; }
 
-.cards .card {
-  line-height: 2;
-  letter-spacing: 2px;
-  background-color: #2e2e2e; }
+.cards {
+  margin-top: 10%;
+  height: 500px; }
+  .cards .card {
+    line-height: 2;
+    letter-spacing: 2px;
+    background-color: #2e2e2e; }
 
 .imagen-2 img {
   box-shadow: 1px 1px 3px 7px; }
 
+.tecnologias {
+  margin-top: 70%;
+  background: #584f79; }
+  .tecnologias .work img {
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px; }
+  .tecnologias .tecno-text p {
+    line-height: 2;
+    letter-spacing: 2px; }
+
 .info .text p {
   line-height: 2;
   letter-spacing: 2px; }
+
+.background {
+  background: #9a889e; }
+
+.background-2 {
+  background: #303030; }
+  .background-2 .row {
+    height: 200px; }
+
+.imagen-3 img {
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px;
+  width: 80%; }
 
 .contacto {
   background-repeat: no-repeat;
@@ -45,6 +71,10 @@ main .text button {
 
 .contacto .row {
   height: 90vh; }
+
+.imagen-contacto img {
+  border-radius: 10px;
+  box-shadow: 1px 1px 7px; }
 
 .form-1 {
   width: 80%; }
@@ -87,6 +117,25 @@ main .text button {
     .mas .row .text h1 {
       color: #0000ff; }
 
+.buttons .row {
+  height: 550px; }
+
+.buttons a {
+  margin: 30px;
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  background: #060707;
+  color: #ff4500;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  transition: all .4s ease-in-out; }
+
+.buttons a:hover {
+  transform: scale(1.2); }
+
 /*mediaquires */
 @media screen and (min-width: 768px) {
   nav ul li {
@@ -106,9 +155,19 @@ main .text button {
   .cards {
     margin-top: 0%; }
   .footer-1 {
-    margin-top: 0%; } }
+    margin-top: 0%; }
+  .tecnologias {
+    min-height: 400px;
+    margin-top: 0%; }
+  .imagen-3 img {
+    min-width: 100%; }
+  .buttons .botones ul {
+    flex-direction: row;
+    justify-content: space-between; } }
 
 @media (min-width: 1200px) {
+  .imagen-3 img {
+    min-width: 120%; }
   .content-width {
     width: 1110px; }
   .content-width-2 {
