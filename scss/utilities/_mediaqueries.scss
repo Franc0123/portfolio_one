@@ -1,6 +1,4 @@
 
-
-
 @media screen and (min-width:768px) {
 
     nav ul li {
@@ -31,6 +29,14 @@
         margin-top: 0%;
     }
 
+    .footer-2 {
+        margin-top: 150%;
+      }
+
+    .footer-3 {
+        margin-top: 150%;
+    }
+
     .tecnologias {
         min-height: 400px;
         margin-top: 0%;
@@ -44,6 +50,36 @@
         flex-direction: row;
         justify-content: space-between;
     }
+
+
+    .cartas .container-fluid .row{
+        margin-left: 10px;
+    }
+
+    .cover-1 .container-fluid {
+        height: 750px;
+
+        .row .margin {
+            width: 40%;
+            margin: 20px;
+        }
+    }
+
+    .cover-2 .container-fluid .row {
+        height: 0%;
+        margin-top: 0%;
+    }
+}
+
+@media (min-width:992px) {
+    .footer-2 {
+        margin-top: 0%;
+    }
+
+    .cover-1 .container-fluid {
+        height: 650px;
+    }
+    
 }
 
 @media (min-width:1200px) {
@@ -58,6 +94,10 @@
 
     .content-width-2 {
         width: 1000px;
+    }
+
+    .content-width-3 {
+        width: 1200px;
     }
 }
 

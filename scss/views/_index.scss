@@ -2,7 +2,13 @@
 
 // pagina index html 
 
+
+
 main .text{
+
+    h1 {
+        color: $alternative;
+    }
     
     .p {
         @include parrafo;

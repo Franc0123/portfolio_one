@@ -13,6 +13,9 @@ nav ul li a:hover {
   color: gray; }
 
 /*index page */
+main .text h1 {
+  color: #0000ff; }
+
 main .text .p {
   line-height: 2;
   letter-spacing: 2px; }
@@ -95,8 +98,21 @@ main .text button {
 .ayuda .container-fluid .row {
   height: 300px; }
 
-.cover-1 .container-fluid .row {
-  height: 300px; }
+.cover-1 .container-fluid {
+  height: 950px; }
+  .cover-1 .container-fluid .row .margin {
+    margin-top: 20px; }
+
+.cover-2 .container-fluid .row {
+  height: 300px;
+  margin-top: 40%; }
+  .cover-2 .container-fluid .row .text {
+    line-height: 2;
+    letter-spacing: 2px; }
+
+.texto {
+  line-height: 2;
+  letter-spacing: 2px; }
 
 .pregunt {
   padding: 10px;
@@ -136,6 +152,15 @@ main .text button {
 .buttons a:hover {
   transform: scale(1.2); }
 
+.mas {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/fondo-mas.jpeg); }
+
+.mas .row {
+  height: 90vh; }
+
 /*mediaquires */
 @media screen and (min-width: 768px) {
   nav ul li {
@@ -156,6 +181,10 @@ main .text button {
     margin-top: 0%; }
   .footer-1 {
     margin-top: 0%; }
+  .footer-2 {
+    margin-top: 150%; }
+  .footer-3 {
+    margin-top: 150%; }
   .tecnologias {
     min-height: 400px;
     margin-top: 0%; }
@@ -163,7 +192,23 @@ main .text button {
     min-width: 100%; }
   .buttons .botones ul {
     flex-direction: row;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+  .cartas .container-fluid .row {
+    margin-left: 10px; }
+  .cover-1 .container-fluid {
+    height: 750px; }
+    .cover-1 .container-fluid .row .margin {
+      width: 40%;
+      margin: 20px; }
+  .cover-2 .container-fluid .row {
+    height: 0%;
+    margin-top: 0%; } }
+
+@media (min-width: 992px) {
+  .footer-2 {
+    margin-top: 0%; }
+  .cover-1 .container-fluid {
+    height: 650px; } }
 
 @media (min-width: 1200px) {
   .imagen-3 img {
@@ -171,7 +216,9 @@ main .text button {
   .content-width {
     width: 1110px; }
   .content-width-2 {
-    width: 1000px; } }
+    width: 1000px; }
+  .content-width-3 {
+    width: 1200px; } }
 
 .hero-2 .row {
   text-align: center;

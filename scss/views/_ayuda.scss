@@ -12,8 +12,23 @@
     height: 300px;
 }
 
-.cover-1 .container-fluid .row {
+.cover-1 .container-fluid  {
+    height: 950px;
+    .row .margin {
+        margin-top: 20px
+    }
+}
+
+.cover-2 .container-fluid .row {
     height: 300px;
+    margin-top: 40%;
+    .text {
+        @include parrafo;
+    }
+}
+
+.texto {
+    @include parrafo;
 }
 
 .pregunt {
@@ -23,4 +38,5 @@
         color: map-get($color, alternative);
     }
 }
+
 
